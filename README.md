@@ -15,7 +15,7 @@ Vehicle detection system implemented using YOLO (You Only Look Once) and OpenCV 
 - Performance optimized algorithm.
 
 ### 📦 Installation
-> **Note**:  
+**Note**:  
 > The YOLO model code was made in Colab, so this code is useful in the direct real detection part. To make use of this code, you must have your YOLO file (`best.pt`) and upload it in the `model_V8n` variable.
 
 ```
