@@ -1,7 +1,7 @@
 # 🚗 Vehicles Classification and Detection with YOLO
 
 
-![Resultados del Modelo](Result\results.png)
+![Resultados del Modelo](Result/results.png)
 
 ## Project Overview
 Vehicle detection system implemented using YOLO (You Only Look Once) and OpenCV in Python. This project provides an advanced real-time vehicle detection solution using state-of-the-art computer vision techniques.
