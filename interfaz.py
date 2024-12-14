@@ -3,7 +3,7 @@ import tkinter.messagebox
 from tkinter import font
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from tkinter import *
-import main as main
+import model_function as main
 
 #* Function to activate real-time detection
 def start_real_time_detect():
