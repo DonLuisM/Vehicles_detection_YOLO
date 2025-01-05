@@ -10,10 +10,10 @@ Este proyecto implementa un sistema de detección y clasificación de vehículos
 - Visión por Computadora: OpenCV (cv2).
 - Lenguaje de Programación: Python.
 - Librerías:
-  - NumPy.
-  - Matplotlib.
-  - tkinter.
-  - PIL (Python Imaging Library).
+  - NumPy
+  - Matplotlib
+  - tkinter
+  - PIL (Python Imaging Library)
 
 ### 🎯 Características Principales
 - Detección de vehículos en tiempo real.
