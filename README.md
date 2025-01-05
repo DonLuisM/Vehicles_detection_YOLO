@@ -1,27 +1,38 @@
-# 🚗 Vehicles Classification and Detection with YOLO
+# 🚗 Clasificación y Detección de Vehículos con YOLO
 
+<img src="Result/results.png" alt="Resultados del Modelo" width="800">
 
-![Resultados del Modelo](Result/results.png)
+## 📖 Descripción del Proyecto
+Este proyecto implementa un sistema de detección y clasificación de vehículos utilizando YOLO (You Only Look Once) y OpenCV en Python. Proporciona una solución avanzada para la detección de vehículos en tiempo real, utilizando técnicas modernas de visión por computadora.
 
-## Project Overview
-Vehicle detection system implemented using YOLO (You Only Look Once) and OpenCV in Python. This project provides an advanced real-time vehicle detection solution using state-of-the-art computer vision techniques.
-
-### 🛠 Technologies Used
+### 🛠 Tecnologías Utilizadas
 - Framework: YOLO (You Only Look Once).
-- Computer Vision: OpenCV (cv2).
-- Programming Language: Python.
-- Libraries: NumPy, Matplotlib, tkinter, PIL.
+- Visión por Computadora: OpenCV (cv2).
+- Lenguaje de Programación: Python.
+- Librerías:
+  - NumPy.
+  - Matplotlib.
+  - tkinter.
+  - PIL (Python Imaging Library).
 
-### 🎯 Key Features
-- Real-time vehicle detection.
-- Multiple vehicle class identification.
-- Performance optimized algorithm.
+### 🎯 Características Principales
+- Detección de vehículos en tiempo real.
+- Identificación de múltiples clases de vehículos.
+- Algoritmo optimizado para un rendimiento eficiente.
 
-### 📦 Installation
-**Note**:  
-> The YOLO model code was made in Colab, so this code is useful in the direct real detection part. To make use of this code, you must have your YOLO file (`best.pt`) and upload it in the `model_V8n` variable.
+### 📦 Instalación
+**Nota**:  
+> El código para el modelo YOLO fue desarrollado en Google Colab. Por lo tanto, este código es útil para la parte de detección en tiempo real. Para usar este código, debes tener tu archivo del modelo YOLO (best.pt) y cargarlo en la variable model_V8n.
 
 ```
-# Clone the repository
+# Pasos para instalar
+
+# Clona el repositorio
 git clone https://github.com/DonLuisM/Vehicles_detection_YOLO.git
+
+# Asegurate de cargar el modelo YOLO (best.pt)
+modelo_V8n = YOLO('tu_modelo_YOLO.pt')
 ```
+
+### 🤝 Contribuciones
+Los modelos requieren cambios en hiperparametros o variación en sus épocas. Por lo que, ¡Las contribuciones son bienvenidas!
